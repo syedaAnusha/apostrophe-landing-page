@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+/* Declaring variables */
+:root {
+  --text-clr: white;
+  --onHover-clr: gray;
+  /* --font-family-paragraph: "space mono"; */
+  --font-family-paragraph: "Space Mono", monospace;
+}
+/* Reset CSS*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-size: 0.8rem;
+}
+/* Main Elements */
+
+figure {
+  display: block;
+  position: relative;
+  margin-inline: auto;
+  width: 96%;
+  min-height: 900px;
+  text-align: center;
+}
+.hero__img {
+  width: 100%;
+  height: auto;
+}
+.hero__section {
+  position: absolute;
+  top: 24%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1; /* Ensure text appears above the image */
+}
+
+/* Style for the text */
+.hero__section h1 {
+  font-size: 3.9rem;
+  width: 120%;
+  margin-bottom: 0.5em;
+  color: var(--text-clr);
+
+  margin-left: 3rem;
+}
+
+.hero__section p {
+  font-size: 1.2rem;
+  color: var(--text-clr);
+  margin-left: 8rem;
+  width: 100%;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+.hero__btn {
+  color: var(--text-clr);
+  font-weight: 400;
+  font-family: var(--font-family-paragraph);
+  border: 2px solid linear-gradient(right, #f474ff, #6060ed);
+  border-radius: 35px;
+  padding: 1em 0.1em;
+  width: 25%;
+  min-width: 130px;
+  margin-left: 25rem;
+  cursor: pointer;
+  background-color: #6236ff;
+
+  /* Standard syntax */
+
+  background-image: linear-gradient(
+    to right,
+    rgba(244, 116, 255, 0.8),
+    rgba(96, 96, 237, 0.6)
+  );
+  transition: background-color 0.5s ease; /* Transition for smooth effect */
+}
+.hero__btn:hover {
+  background-image: linear-gradient(to right, #f474ff, #8484ff);
+}
+.hero__btn--small {
+  color: var(--text-clr);
+  margin-left: 17rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.hero__btn--small:after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  width: 15%;
+  margin-left: -6.5rem;
+  bottom: -8px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  background-image: linear-gradient(41deg, #f474ff, #6060ed);
+}
+
+.hero__btn--small:hover:after {
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+}

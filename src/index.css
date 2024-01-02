@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+/* Declaring variables */
+:root {
+  --font-family-default: "Inter";
+  --bg-clr: #000;
+  --text-clr: #fff;
+}
+
+/* Reset CSS */
+img {
+  max-width: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg-clr);
+}

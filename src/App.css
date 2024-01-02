@@ -1,0 +1,9 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
