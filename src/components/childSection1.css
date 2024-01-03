@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+/* Declaring variables */
+:root {
+  --text-clr: white;
+  --onHover-clr: gray;
+  --font-family-paragraph: "Space Mono", monospace;
+}
+/* Reset CSS*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+/* Main Elements */
+.description {
+  margin-top: -24.5rem;
+  padding: 0 auto;
+}
+
+.icon__section {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  width: 3%;
+}
+.back__glow {
+  background-image: linear-gradient(46deg, #b327bf, #66f 47%, #00c09a);
+  border-radius: 35%;
+  -webkit-filter: blur(13px);
+  filter: blur(13px);
+  height: 68px;
+  width: 68px;
+  left: 50%;
+  position: relative;
+  top: -3px;
+  -webkit-transform: translateX(-50%) rotate(-9deg);
+  transform: translateX(-50%) rotate(-9deg);
+}
+.border__section {
+  border: 1px solid transparent;
+  border-radius: 35%;
+  transform: translateX(-50%) rotate(-9deg);
+  width: 60px;
+  height: 60px;
+  /* background-color: black; */
+  background-color: #1a1a1d;
+  padding: 15px;
+  margin-top: -4.2rem;
+  margin-left: 1.21rem;
+}
+
+.text-section {
+  margin-top: 5rem;
+  color: var(--text-clr);
+}
+
+.text-section h6 {
+  font-family: var(--font-family-paragraph);
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+}
+.text-section p {
+  width: 80%;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  line-height: 1.9rem;
+}

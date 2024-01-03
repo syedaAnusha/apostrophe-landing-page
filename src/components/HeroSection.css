@@ -4,7 +4,6 @@
 :root {
   --text-clr: white;
   --onHover-clr: gray;
-  /* --font-family-paragraph: "space mono"; */
   --font-family-paragraph: "Space Mono", monospace;
 }
 /* Reset CSS*/
