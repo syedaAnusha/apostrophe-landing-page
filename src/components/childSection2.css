@@ -1,0 +1,65 @@
+/* Declaring variables */
+:root {
+  --text-clr: white;
+  --onHover-clr: gray;
+  --font-family-paragraph: "Space Mono", monospace;
+  --clr-list--bg: #1a1a1d;
+}
+
+/* Reset CSS*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+img {
+  max-width: 100%;
+}
+
+/* Main elements */
+main {
+  margin-top: 5em;
+  /* border: 2px solid wheat; */
+  display: flex;
+  justify-content: space-between;
+}
+.img__Section {
+  margin: 8em 5em;
+  margin-left: 3em;
+  margin-right: 2rem;
+  width: 67%;
+  max-width: 40%;
+}
+
+.list__section {
+  color: var(--text-clr);
+  /* border: 2px solid brown; */
+  width: 80%;
+  margin-right: 2rem;
+  margin-left: -3rem;
+  margin-top: 2.5em;
+}
+.list__section ul,
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.list__section ul > li {
+  border: 2px solid transparent;
+  background-color: var(--clr-list--bg);
+  border-radius: 15px;
+  padding: 0.5em 1em;
+  padding-left: 1.2em;
+  /* padding-right: -2em; */
+  margin-top: 1rem;
+}
+
+.list__section p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  width: 95%;
+  text-align: left;
+}
