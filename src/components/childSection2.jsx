@@ -38,7 +38,9 @@ export default function ChildSection2() {
               <p>One dashboard to oversee it all</p>
             </li>
           </ul>
-          <p>Learn more about Apostrophe Assembly</p>
+          <p className="ul__btn--primary">
+            Learn more about Apostrophe Assembly
+          </p>
         </div>
       </main>
     </>
