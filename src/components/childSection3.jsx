@@ -47,10 +47,11 @@ export default function ChildSection3() {
               </li>
               <li>
                 Join a global community of developers and agencies crafting
+                <br />
                 incredible experiences
               </li>
             </ul>
-            <p>Learn more about ApostropheCMS</p>
+            <p className="btn--primary">Learn more about ApostropheCMS</p>
           </div>
           <div className="desc-img">
             <img src={stackImg} alt="techStack-Image" />
