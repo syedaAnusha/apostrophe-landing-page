@@ -2,7 +2,7 @@ import "./childSection1.css";
 
 export default function ChildSection1() {
   return (
-    <div>
+    <>
       <div className="description">
         <div className="icon__section " aria-label="modules-duotone">
           <div className="back__glow "></div>
@@ -41,6 +41,6 @@ export default function ChildSection1() {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
