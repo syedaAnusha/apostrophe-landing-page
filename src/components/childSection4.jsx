@@ -7,8 +7,8 @@ export default function ChildSection4() {
         <p>Solutions for All</p>
         <h5>Take ownership of your digital experience.</h5>
         <div className="card__section">
-          <ul>
-            <li>
+          <ul className="row">
+            <li className="card">
               <img src="" alt="" />
               <h3>Web Agencies</h3>
               <p>
@@ -20,7 +20,7 @@ export default function ChildSection4() {
               </p>
               <p>Deliever ahead of schedule</p>
             </li>
-            <li>
+            <li className="card">
               <img src="" alt="" />
               <h3>SaaS Companies</h3>
               <p>
@@ -31,7 +31,7 @@ export default function ChildSection4() {
               </p>
               <p>More Assembly features</p>
             </li>
-            <li>
+            <li className="card">
               <img src="" alt="" />
               <h3>Higher Education</h3>
               <p>
@@ -44,8 +44,8 @@ export default function ChildSection4() {
               <p>More about Higher Ed features</p>
             </li>
           </ul>
-          <ul>
-            <li>
+          <ul className="row">
+            <li className="card">
               <img src="" alt="" />
               <h3>Enterprise</h3>
               <p>
@@ -57,7 +57,7 @@ export default function ChildSection4() {
               </p>
               <p>Michelin powered by Apostrophe</p>
             </li>
-            <li>
+            <li className="card">
               <img src="" alt="" />
               <h3>Hospitality</h3>
               <p>
@@ -70,7 +70,7 @@ export default function ChildSection4() {
               </p>
               <p>Read Kimpton`s story</p>
             </li>
-            <li>
+            <li className="card">
               <h3>View Plans and Pricing</h3>
               <p>Find the plan that`s right for me</p>
             </li>
