@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+/* Declaring variables */
+:root {
+  --text-clr: white;
+  --onHover-clr: gray;
+  --font-family-paragraph: "Space Mono", monospace;
+  --clr-list--bg: #1a1a1d;
+}
+
+/* Reset CSS*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+img {
+  max-width: 100%;
+}
+p,
+h5 {
+  color: var(--text-clr);
+}
+ul,
+li {
+  list-style-type: none;
+}
+/* Main Elements */
+.main {
+  border: 2px solid blue;
+  margin-top: 7rem;
+}
+.main > p {
+  font-family: var(--font-family-paragraph);
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+.main > h5 {
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
