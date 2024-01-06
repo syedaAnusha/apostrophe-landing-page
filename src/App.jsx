@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import ChildSection1 from "./components/childSection1";
 import ChildSection2 from "./components/childSection2";
 import ChildSection3 from "./components/childSection3";
+import ChildSection4 from "./components/childSection4";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <ChildSection1 />
       <ChildSection2 />
       <ChildSection3 />
+      <ChildSection4 />
     </>
   );
 }
