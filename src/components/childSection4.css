@@ -30,6 +30,7 @@ li {
   /* border: 2px solid blue; */
   margin-top: 7rem;
   padding: 2rem 2rem;
+  color: white;
 }
 .main > p {
   font-family: var(--font-family-paragraph);
