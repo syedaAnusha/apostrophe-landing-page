@@ -1,0 +1,26 @@
+/* Declaring variables */
+:root {
+  --text-clr: white;
+  --onHover-clr: gray;
+  --font-family-paragraph: "Space Mono", monospace;
+  --clr-list--bg: #1a1a1d;
+
+  --svg-clr: white;
+}
+
+/* Reset CSS*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+
+ul,
+li {
+  list-style-type: none;
+}

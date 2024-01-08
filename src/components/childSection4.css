@@ -5,8 +5,9 @@
   --onHover-clr: gray;
   --font-family-paragraph: "Space Mono", monospace;
   --clr-list--bg: #1a1a1d;
-
   --svg-clr: white;
+
+  --clr-onHover-Card: black;
 }
 
 /* Reset CSS*/
@@ -29,7 +30,6 @@ li {
   /* border: 2px solid blue; */
   margin-top: 7rem;
   padding: 2rem 2rem;
-  color: var(--text-clr);
 }
 .main > p {
   font-family: var(--font-family-paragraph);
@@ -42,7 +42,6 @@ li {
   letter-spacing: 0.1rem;
 }
 .card__section {
-  /* border: 2px solid brown; */
   padding-right: 2rem;
 }
 .card__section h3 {
@@ -69,33 +68,33 @@ li {
   margin-top: 3.7rem;
 }
 .card {
-  /* border: 2px solid pink; */
   width: 50%;
   padding-bottom: 1.2rem;
 }
-.ul__section--second > :nth-child(3) {
-  height: 300px;
-}
+
 .ul__section--first > .card:hover {
   background-color: white;
   cursor: pointer;
   border-radius: 10px;
-  color: black !important;
+  color: var(--clr-list--bg);
   transition: all 0.5s ease;
 }
-.ul__section--second > :not(:nth-child(3)):hover {
+.card__section > .ul__section--second > :not(:nth-child(3)):hover {
   background-color: white;
   cursor: pointer;
   border-radius: 10px;
-  color: black !important;
+  color: var(--clr-list--bg);
   transition: all 0.5s ease;
 }
-.ul__section--second > :nth-child(3):hover {
+.card__section > .ul__section--second > :nth-child(3):hover {
   background-color: white;
   cursor: pointer;
   border-radius: 10px;
-  color: black !important;
+  color: var(--clr-list--bg);
   transition: all 0.5s ease;
+}
+.ul__section--second > :nth-child(3) {
+  height: 300px;
 }
 
 .card + .card {
