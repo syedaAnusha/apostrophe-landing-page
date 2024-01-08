@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
 /* Declaring variables */
 :root {
   --text-clr: white;
   --onHover-clr: gray;
   --font-family-paragraph: "Space Mono", monospace;
   --clr-list--bg: #1a1a1d;
-
   --svg-clr: white;
 }
 
@@ -14,13 +15,68 @@
 *:after {
   box-sizing: border-box;
   font-size: 1rem;
-  color: white;
 }
 img {
   max-width: 100%;
 }
+/* Main Elements */
+.Card {
+  border: 0.2px solid white;
+  border-radius: 25px;
+  padding: 2em 2em;
+  color: var(--text-clr);
+  width: 75%;
+  margin: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.badge p {
+  font-family: var(--font-family-paragraph);
+  color: var(--text-clr);
+  background-color: #6236ff;
+  padding: 0.5em 1.1em;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-top: 2em;
+}
+.main_description p {
+  color: var(--text-clr);
+  margin: 1rem 0;
+  padding: 0 auto;
+  text-align: left;
+  width: 95%;
+  margin-right: 1rem;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
+.sub-description {
+  text-align: left;
+  /* border: 1px solid blue; */
+}
+.sub-description p {
+  font-family: var(--font-family-paragraph);
+  font-size: 1.1rem;
+  margin-bottom: 0rem;
+  /* border: 1px solid blue; */
+}
+.sub-description h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.6em;
+  /* border: 1px solid blue; */
+}
 
-ul,
-li {
-  list-style-type: none;
+hr {
+  width: 98%;
+  margin-left: 0;
+}
+.last_description {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: auto;
+}
+.last_description .btn {
+  font-size: 0.9rem;
+  font-weight: 600;
 }

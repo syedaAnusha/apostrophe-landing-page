@@ -6,7 +6,6 @@ export default function ChildSection5() {
     <div>
       <Carousel showArrows={false}>
         <Card />
-        <Card />
       </Carousel>
     </div>
   );
