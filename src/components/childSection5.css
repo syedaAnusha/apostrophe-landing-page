@@ -1,0 +1,40 @@
+.Carousel-style {
+  /* border: 1px solid blue; */
+  /* disable default outline on focused items */
+  /* add custom outline on focused items */
+  .rec-carousel-item {
+    margin-left: -1rem;
+  }
+  .rec-carousel-item + .rec-carousel-item {
+    margin-left: -16rem;
+  }
+
+  .rec.rec-dot {
+    border-radius: 50px;
+    height: 28px;
+    width: 28px;
+    box-shadow: none;
+  }
+  .rec.rec-dot:nth-child(1):active {
+    border-color: #6236ff !important;
+    background-color: #6236ff !important;
+  }
+  .rec.rec-dot:not(:active) {
+    background-color: none;
+    border: 1px solid white !important;
+  }
+  .rec.rec-dot + .rec.rec-dot {
+    margin-left: 1.4rem;
+  }
+  .rec.rec-dot:active {
+    background-color: #6236ff !important;
+    border-color: #6236ff !important;
+    border: 1px solid transparent;
+  }
+
+  .rec-carousel-item :not(:focus) {
+    outline: none;
+
+    /* box-shadow: inset 0 0 1px 1px lightgrey; */
+  }
+}
