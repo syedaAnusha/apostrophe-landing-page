@@ -75,8 +75,21 @@ hr {
   display: flex;
   margin-top: 2rem;
   margin-bottom: auto;
+  cursor: pointer;
 }
+
 .last_description .btn {
   font-size: 0.9rem;
   font-weight: 600;
+}
+.last_description:hover {
+  color: #6236ff;
+}
+.last_description .img_tag {
+  margin-top: -0.8rem;
+}
+
+.last_description .img_tag:hover {
+  /* transform: rotate(180deg); */
+  transition: margin 0.25s;
 }

@@ -1,10 +1,4 @@
 import "./Card.css";
-import svg from "components:svg/svg.html";
-{
-  {
-    svg.render({ icon: "instagram" });
-  }
-}
 export default function Card() {
   return (
     <div>
@@ -30,7 +24,17 @@ export default function Card() {
         <div className="last_description">
           <div className="btn">Read Thirstie&apos;s Case Study</div>
           <div className="img_tag">
-            {/* svg.render({ {icon}: 'instagram' }); */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 -960 960 960"
+              width="60"
+            >
+              <path
+                d="m695.461-314.463-32.615-31.999 109.847-110.231H140.001v-45.383h633.692L663.462-611.923l31.614-31.999 164.923 164.537-164.538 164.922Z"
+                fill="#1a1a1d"
+              />
+            </svg>
           </div>
         </div>
       </div>
