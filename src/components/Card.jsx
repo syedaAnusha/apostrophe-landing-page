@@ -1,4 +1,5 @@
 import "./Card.css";
+import ThirstieFull from "../assets/images/ThirstieFull.png";
 export default function Card() {
   return (
     <div>
@@ -22,21 +23,28 @@ export default function Card() {
         </div>
         <hr />
         <div className="last_description">
-          <div className="btn">
-            <a href="/">Read Thirstie&apos;s Case Study</a>
+          <div className="section--1">
+            <div className="btn">
+              <a href="/">Read Thirstie&apos;s Case Study</a>
+            </div>
+            <div className="svg_tag">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="48"
+                viewBox="0 -960 960 960"
+                width="80"
+              >
+                <path
+                  d="m695.461-314.463-32.615-31.999 109.847-110.231H140.001v-45.383h633.692L663.462-611.923l31.614-31.999 164.923 164.537-164.538 164.922Z"
+                  fill="#1a1a1d"
+                />
+              </svg>
+            </div>
           </div>
-          <div className="img_tag">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="48"
-              viewBox="0 -960 960 960"
-              width="80"
-            >
-              <path
-                d="m695.461-314.463-32.615-31.999 109.847-110.231H140.001v-45.383h633.692L663.462-611.923l31.614-31.999 164.923 164.537-164.538 164.922Z"
-                fill="#1a1a1d"
-              />
-            </svg>
+          <div className="section--2">
+            <div className="logo_tag">
+              <img src={ThirstieFull} alt="Thirstie-T" />
+            </div>
           </div>
         </div>
       </div>
