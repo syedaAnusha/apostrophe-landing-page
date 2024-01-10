@@ -1,0 +1,32 @@
+/* Declaring variables */
+:root {
+  --text-clr: white;
+  --onHover-clr: gray;
+  --font-family-paragraph: "Space Mono", monospace;
+  --clr-list--bg: #1a1a1d;
+  --svg-clr: white;
+}
+
+/* Reset CSS*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+ul,
+li {
+  list-style-type: none;
+}
+
+/* Main Elements */
+footer {
+  color: var(--text-clr);
+  margin-top: 4.2rem;
+  margin-left: 4rem;
+  /* border: 1px solid blue; */
+}
+footer > h5 {
+  text-align: left;
+  padding-top: 2rem;
+}
