@@ -24,12 +24,80 @@ li {
 .aboutUs__section {
   display: flex;
   color: white;
-  /* border: 1px solid blue; */
-  padding-left: 2rem;
-  padding-top: 4.1rem;
+  border: 1px solid blue;
+  padding-inline-start: 1rem;
+  padding-inline-end: 7rem;
+  padding-top: 3.6rem;
 }
 
-.aboutUs__section > .list--1 p {
-  font-size: 1.2rem;
-  font-weight: 500;
+/* List section-1 */
+.aboutUs__section > .list--1 > p {
+  margin-left: -1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.list--1 > ul > li {
+  width: 105%;
+  font-size: 0.9rem;
+  margin-left: -0.5rem;
+  line-height: 2rem;
+}
+.list--1 > ul > li {
+  text-align: left;
+  margin-right: 1rem;
+  padding-left: 3rem;
+}
+
+/* List section-2 */
+.aboutUs__section > .list--2 > p {
+  margin-left: -1.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.list--2 > ul > li {
+  width: 105%;
+  font-size: 0.9rem;
+  margin-left: -0.9rem;
+  line-height: 2rem;
+}
+.list--2 > ul > li {
+  text-align: left;
+  margin-right: 1rem;
+  padding-left: 3rem;
+}
+
+/* List section-3 */
+.aboutUs__section > .list--3 > p {
+  margin-left: 0.9rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.list--3 > ul > li {
+  width: 105%;
+  font-size: 0.9rem;
+  margin-left: -0.9rem;
+  line-height: 2rem;
+}
+.list--3 > ul > li {
+  text-align: left;
+  margin-right: 1rem;
+  padding-left: 3rem;
+}
+
+/* List section-4 */
+.aboutUs__section > .list--4 > p {
+  margin-left: 3rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.list--4 > ul > li {
+  width: 105%;
+  font-size: 0.9rem;
+  margin-left: -0.9rem;
+  line-height: 2rem;
+}
+.list--4 > ul > li {
+  text-align: left;
+  margin-right: 1rem;
+  padding-left: 3rem;
 }

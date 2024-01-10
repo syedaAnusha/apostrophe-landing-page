@@ -16,7 +16,7 @@ export default function AboutUs() {
           </ul>
         </div>
 
-        <div className="list--1">
+        <div className="list--2">
           <p>Developers</p>
           <ul>
             <li>Install Apostrophe</li>
@@ -28,7 +28,7 @@ export default function AboutUs() {
           </ul>
         </div>
 
-        <div className="list--1">
+        <div className="list--3">
           <p>Documentation</p>
           <ul>
             <li>Start a Project</li>
@@ -40,7 +40,7 @@ export default function AboutUs() {
           </ul>
         </div>
 
-        <div className="list--1">
+        <div className="list--4">
           <p>Business Solutions </p>
           <ul>
             <li>Apostrophe Assembly</li>
