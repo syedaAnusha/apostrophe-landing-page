@@ -14,11 +14,17 @@ export default function ChildSection6() {
             required
             placeholder="Your email"
           />
+          {/* <div className="msg">
+            <ul>
+              <li>Please complete this required field.</li>
+            </ul>
+          </div> */}
           <div className="submit__btn">
             <p>submit</p>
           </div>
         </div>
       </div>
+      <hr />
     </>
   );
 }
