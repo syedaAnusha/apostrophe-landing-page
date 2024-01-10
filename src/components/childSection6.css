@@ -106,3 +106,9 @@ li {
   display: flex;
   flex-direction: row;
 }
+
+hr {
+  color: #2b2b2b;
+  margin-top: 2.7rem;
+  width: 100.6%;
+}
