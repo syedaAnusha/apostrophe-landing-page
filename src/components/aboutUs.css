@@ -24,7 +24,7 @@ li {
 .aboutUs__section {
   display: flex;
   color: white;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding-inline-start: 1rem;
   padding-inline-end: 7rem;
   padding-top: 3.6rem;
@@ -47,6 +47,10 @@ li {
   margin-right: 1rem;
   padding-left: 3rem;
 }
+.list--1 > ul > li:hover {
+  cursor: pointer;
+  color: var(--onHover-clr);
+}
 
 /* List section-2 */
 .aboutUs__section > .list--2 > p {
@@ -64,6 +68,10 @@ li {
   text-align: left;
   margin-right: 1rem;
   padding-left: 3rem;
+}
+.list--2 > ul > li:hover {
+  cursor: pointer;
+  color: var(--onHover-clr);
 }
 
 /* List section-3 */
@@ -83,6 +91,10 @@ li {
   margin-right: 1rem;
   padding-left: 3rem;
 }
+.list--3 > ul > li:hover {
+  cursor: pointer;
+  color: var(--onHover-clr);
+}
 
 /* List section-4 */
 .aboutUs__section > .list--4 > p {
@@ -100,4 +112,37 @@ li {
   text-align: left;
   margin-right: 1rem;
   padding-left: 3rem;
+}
+.list--4 > ul > li:hover {
+  cursor: pointer;
+  color: var(--onHover-clr);
+}
+/* list section-5 */
+.sub__section--aboutus {
+  display: flex;
+  color: var(--text-clr);
+  padding-inline-start: 1rem;
+  padding-inline-end: 7rem;
+  padding-top: 0rem;
+}
+
+.sub__section--aboutus > .list--5 > p {
+  margin-left: -0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.list--5 > ul > li {
+  width: 105%;
+  font-size: 0.9rem;
+  margin-left: -0.5rem;
+  line-height: 2rem;
+}
+.list--5 > ul > li {
+  text-align: left;
+  margin-right: 1rem;
+  padding-left: 3rem;
+}
+.list--5 > ul > li:hover {
+  cursor: pointer;
+  color: var(--onHover-clr);
 }
