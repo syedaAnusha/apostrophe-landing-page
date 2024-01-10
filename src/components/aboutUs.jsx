@@ -51,6 +51,16 @@ export default function AboutUs() {
           </ul>
         </div>
       </div>
+      <div className="sub__section--aboutus">
+        <div className="list--5">
+          <p>About</p>
+          <ul>
+            <li>About Apostrophe</li>
+            <li>Contact Us</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+      </div>
     </>
   );
 }
