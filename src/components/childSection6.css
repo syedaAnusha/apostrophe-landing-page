@@ -67,7 +67,8 @@
     color-stop(66%, #6060ed),
     to(#0d3e34)
   );
-  background-image: linear-gradient(90deg, #f474ff, #6060ed 66%, #0d3e34);
+
+  background-image: linear-gradient(90deg, #f474ff, #6236ff 66%, #0d3e34);
   background-position: 25% 50%;
   background-size: 150% 105%;
   border-radius: 40px;
@@ -77,12 +78,15 @@
   font-family: Space Mono, "monospace";
 
   min-width: 130px;
-  padding: 0.1rem 2.2rem;
+  padding: 0.4rem 2.4rem;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
   -webkit-transition-property: background-position;
   transition-property: background-position;
   margin-left: 2rem;
+}
+.submit__btn:hover {
+  background-image: linear-gradient(100deg, #fe5599 5%, #6236ff 66%, #0d3e34);
 }
 
 .submit__btn > p {
