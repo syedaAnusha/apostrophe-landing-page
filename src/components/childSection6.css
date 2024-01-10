@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
 /* Declaring variables */
 :root {
   --text-clr: white;
@@ -13,18 +15,23 @@
 *:after {
   box-sizing: border-box;
   font-size: 1rem;
-  color: white;
+}
+ul,
+li {
+  list-style-type: none;
 }
 /* Main Elements */
 .text__section {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin-top: 4rem;
   display: flex;
+  margin-left: 4rem;
   justify-content: space-around;
+  color: white;
 }
 
 .text__section > h1 {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   font-size: 2.5rem;
   width: 50%;
   text-align: left;
@@ -33,7 +40,7 @@
 }
 
 .form__section {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,7 +93,7 @@
   margin-left: 2rem;
 }
 .submit__btn:hover {
-  background-image: linear-gradient(100deg, #fe5599 5%, #6236ff 66%, #0d3e34);
+  background-image: linear-gradient(90deg, #fe5599 5%, #6236ff 66%, #0d3e34);
 }
 
 .submit__btn > p {
@@ -94,4 +101,8 @@
   font-weight: 600;
   letter-spacing: 0.5px;
   line-height: 1.1;
+}
+.msg {
+  display: flex;
+  flex-direction: row;
 }
