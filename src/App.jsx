@@ -7,6 +7,7 @@ import ChildSection3 from "./components/childSection3";
 import ChildSection4 from "./components/childSection4";
 import ChildSection5 from "./components/childSection5";
 import ChildSection6 from "./components/childSection6";
+import AboutUs from "./components/aboutUs";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <ChildSection4 />
       <ChildSection5 />
       <ChildSection6 />
+      <AboutUs />
     </>
   );
 }
