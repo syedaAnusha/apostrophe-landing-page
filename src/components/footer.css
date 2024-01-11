@@ -97,22 +97,36 @@ footer > h5 {
 }
 .media__icons--section {
   width: 20%;
-  /* border: 1px solid purple; */
   display: flex;
   align-items: center;
-
-  gap: 2rem;
+  gap: 1rem;
   margin: 0.75em 0.75em;
-  margin-right: 3rem;
+  margin-right: 0.8rem;
 }
 :where(.twitter, .linkedIn, .facebook, .youtube) {
   border: 2px solid;
   border-radius: 50%;
   width: 30px;
-  height: 0;
-  padding-block: 15px;
-  align-items: center;
+  height: 30px;
+  cursor: pointer;
+}
+
+:where(.twitter, .linkedIn, .facebook, .youtube):hover {
+  color: #ab92b5;
+  :where(#twitter, #linkedIn, #facebook, #youtube) {
+    fill: #ab92b5;
+  }
 }
 .twitter {
-  padding-bottom: -18rem;
+  line-height: 1.9rem;
+}
+
+.linkedIn {
+  line-height: 1.6rem;
+}
+.facebook {
+  line-height: 1.7rem;
+}
+.youtube {
+  line-height: 1.7rem;
 }
