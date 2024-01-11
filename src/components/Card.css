@@ -34,7 +34,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
 }
-.badge p {
+.badge_card p {
   font-family: var(--font-family-paragraph);
   color: var(--text-clr);
   background-color: #6236ff;
