@@ -41,13 +41,13 @@ export default function Footer() {
             >
               <g transform="matrix(5.833333333333333,0,0,5.833333333333333,0,0)">
                 <path
-                  id="twitter"
                   d="M23.32,6.44a.5.5,0,0,0-.2-.87l-.79-.2A.5.5,0,0,1,22,4.67l.44-.89a.5.5,0,0,0-.58-.7l-2,.56a.5.5,0,0,1-.44-.08,5,5,0,0,0-3-1,5,5,0,0,0-5,5v.36a.25.25,0,0,1-.22.25c-2.81.33-5.5-1.1-8.4-4.44a.51.51,0,0,0-.51-.15A.5.5,0,0,0,2,4a7.58,7.58,0,0,0,.46,4.92.25.25,0,0,1-.26.36L1.08,9.06a.5.5,0,0,0-.57.59,5.15,5.15,0,0,0,2.37,3.78.25.25,0,0,1,0,.45l-.53.21a.5.5,0,0,0-.26.69,4.36,4.36,0,0,0,3.2,2.48.25.25,0,0,1,0,.47A10.94,10.94,0,0,1,1,18.56a.5.5,0,0,0-.2,1,20.06,20.06,0,0,0,8.14,1.93,12.58,12.58,0,0,0,7-2A12.5,12.5,0,0,0,21.5,9.06V8.19a.5.5,0,0,1,.18-.38Z"
                   fill="#ffffff"
                   stroke="none"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="0"
+                  id="twitter"
                 ></path>
               </g>
             </svg>
@@ -59,8 +59,8 @@ export default function Footer() {
               xmlnsXlink="http://www.w3.org/1999/xlink"
               // xmlns:svgjs="http://svgjs.com/svgjs"
               viewBox="0 0 140 140"
-              width="20"
-              height="20 "
+              width="15"
+              height="15"
             >
               <g transform="matrix(5.833333333333333,0,0,5.833333333333333,0,0)">
                 <path
@@ -70,6 +70,7 @@ export default function Footer() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="0"
+                  id="linkedIn"
                 ></path>
                 <path
                   d="M2.000 4.000 A2.48 2.5 0 1 0 6.960 4.000 A2.48 2.5 0 1 0 2.000 4.000 Z"
@@ -78,6 +79,7 @@ export default function Footer() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="0"
+                  id="linkedIn"
                 ></path>
                 <path
                   d="M18.5,22.5h3A.5.5,0,0,0,22,22V13.6C22,9.83,19.87,8,16.89,8a4.21,4.21,0,0,0-3.17,1.27A.41.41,0,0,1,13,9a.5.5,0,0,0-.5-.5h-3A.5.5,0,0,0,9,9V22a.5.5,0,0,0,.5.5h3A.5.5,0,0,0,13,22V14.5a2.5,2.5,0,0,1,5,0V22A.5.5,0,0,0,18.5,22.5Z"
@@ -86,6 +88,7 @@ export default function Footer() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="0"
+                  id="linkedIn"
                 ></path>
               </g>
             </svg>
@@ -98,8 +101,8 @@ export default function Footer() {
               xmlnsXlink="http://www.w3.org/1999/xlink"
               // xmlns:svgjs="http://svgjs.com/svgjs"
               viewBox="0 0 140 140"
-              width="20"
-              height="20 "
+              width="15"
+              height="15"
             >
               <g transform="matrix(5.833333333333333,0,0,5.833333333333333,0,0)">
                 <path
@@ -109,6 +112,7 @@ export default function Footer() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="0"
+                  id="facebook"
                 ></path>
               </g>
             </svg>
@@ -121,8 +125,8 @@ export default function Footer() {
               xmlnsXlink="http://www.w3.org/1999/xlink"
               // xmlns:svgjs="http://svgjs.com/svgjs"
               viewBox="0 0 140 140"
-              width="20"
-              height="20 "
+              width="15"
+              height="15"
             >
               <g transform="matrix(5.833333333333333,0,0,5.833333333333333,0,0)">
                 <path
@@ -132,6 +136,7 @@ export default function Footer() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="0"
+                  id="youtube"
                 ></path>
               </g>
             </svg>
