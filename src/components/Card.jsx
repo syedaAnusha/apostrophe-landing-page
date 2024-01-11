@@ -4,7 +4,7 @@ export default function Card() {
   return (
     <div>
       <div className="Card">
-        <div className="badge">
+        <div className="badge_card">
           <p>Onboarding New Customers at Record Speeds</p>
         </div>
         <div className="main_description">
