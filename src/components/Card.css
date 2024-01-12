@@ -7,6 +7,7 @@
   --font-family-paragraph: "Space Mono", monospace;
   --clr-list--bg: #1a1a1d;
   --svg-clr: white;
+  --text-clr-initial: black;
 }
 
 /* Reset CSS*/
@@ -27,12 +28,13 @@ a {
   border: 0.2px solid white;
   border-radius: 25px;
   padding: 2em 2em;
-  color: var(--text-clr);
+  color: var(--text-clr-initial);
   width: 75%;
   margin: 2rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background-color: white;
 }
 .badge_card p {
   font-family: var(--font-family-paragraph);
@@ -44,7 +46,7 @@ a {
   margin-top: 2em;
 }
 .main_description p {
-  color: var(--text-clr);
+  color: var(--text-clr-initial);
   margin: 1rem 0;
   padding: 0 auto;
   text-align: left;
@@ -104,7 +106,7 @@ hr {
   font-weight: 600;
 }
 .last_description .btn > a {
-  color: var(--text-clr);
+  color: var(--text-clr-initial);
   -webkit-transition: padding 0.25s;
   transition: padding 0.25s;
 }
