@@ -22,10 +22,11 @@ li {
 /* Main Elements */
 footer {
   color: var(--text-clr);
-  margin-top: 4.2rem;
+  margin-top: 4.3rem;
   margin-left: 4rem;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 12rem;
   /* border: 1px solid blue; */
 }
 footer > h5 {

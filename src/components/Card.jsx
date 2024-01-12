@@ -1,31 +1,24 @@
 import "./Card.css";
-import ThirstieFull from "../assets/images/ThirstieFull.png";
-export default function Card() {
+import PropTypes from "prop-types";
+export default function Card(props) {
   return (
     <div>
       <div className="Card">
         <div className="badge_card">
-          <p>Onboarding New Customers at Record Speeds</p>
+          <p>{props.Title}</p>
         </div>
         <div className="main_description">
-          <p>
-            {'"'}Apostrophe Assembly allows us to launch new web storefronts for
-            our clients in minutes, with our robust and hyper-compliant API
-            technology pre-built. This has improved our customer onboarding
-            speed by 10x, as we can now get new brands live faster than ever
-            before. Apostrophe has transformed our sales process and our
-            customer&apos;s speed to market.{'"'}
-          </p>
+          <p>{props.Description}</p>
         </div>
         <div className="sub-description">
-          <p>Devaraj Southworth</p>
-          <h6>CEO & Co-Founder, Thirstie</h6>
+          <p>{props.PersonName}</p>
+          <h6>{props.Designation}</h6>
         </div>
         <hr />
         <div className="last_description">
           <div className="section--1">
             <div className="btn">
-              <a href="/">Read Thirstie&apos;s Case Study</a>
+              <a href="/">{props.Link}</a>
             </div>
             <div className="svg_tag">
               <svg
@@ -43,7 +36,7 @@ export default function Card() {
           </div>
           <div className="section--2">
             <div className="logo_tag">
-              <img src={ThirstieFull} alt="Thirstie-T" />
+              <img src={props.Image} alt="Thirstie-T" />
             </div>
           </div>
         </div>
@@ -51,3 +44,11 @@ export default function Card() {
     </div>
   );
 }
+Card.propTypes = {
+  Title: PropTypes.string.isRequired,
+  Description: PropTypes.string.isRequired,
+  PersonName: PropTypes.string,
+  Designation: PropTypes.string,
+  Link: PropTypes.string.isRequired,
+  Image: PropTypes.string.isRequired,
+};
