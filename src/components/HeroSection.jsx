@@ -5,7 +5,12 @@ export default function HeroSection() {
   return (
     <>
       <figure>
-        <img src={mainImg} alt="hero-image" className="hero__img" />
+        <img
+          src={mainImg}
+          alt="hero-image"
+          className="hero__img"
+          srcSet={mainImg}
+        />
         <div className="hero__section">
           <h1>The open source website builder for your business.</h1>
           <p>
